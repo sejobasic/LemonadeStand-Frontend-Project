@@ -100,3 +100,61 @@ label {
 input:focus {
   outline-color: var(--button);
 }
+
+.lemonade-container {
+  margin: 100px auto 0;
+  width: 800px;
+  padding: 2em;
+  background-color: var(--form-box);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row button {
+  padding: 0.2em;
+  width: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 5px 10px;
+}
+
+.increment {
+  background-color: rgb(121, 187, 121);
+}
+
+.increment:hover {
+  background-color: rgb(179, 223, 179);
+}
+
+.lemonade-container .order-btn {
+  width: 100%;
+  padding: 1em;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+.checkout img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  height: 100vh;
+  width: 40vw;
+  top: 0;
+  right: 0;
+  border-left: 2px solid grey;
+  background-color: var(--form-box);
+}

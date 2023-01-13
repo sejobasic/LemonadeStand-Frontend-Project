@@ -8,28 +8,45 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
-    <a href="cart.html">Checkout</a>
-    <div>lemonade glass</div>
-    <div>
-      <label>Lemon Juice</label>
-      <button>+</button>
-      <h4>3 Ounces</h4>
-      <button>-</button>
-      <label>Water</label>
-      <button>+</button>
-      <h4>3 Ounces</h4>
-      <button>-</button>
-      <label>Sugar</label>
-      <button>+</button>
-      <h4>6 Tablespoons</h4>
-      <button>-</button>
-      <label>Ice Cubes</label>
-      <button>+</button>
-      <h4>5 Cubes</h4>
-      <button>-</button>
+    <a class="checkout" href="cart.html">
+      <img src="../shopping-cart.png" />
+    </a>
+    <div class="lemonade-container">
+      <div class="row">
+        <label>Lemon Juice</label>
+        <div class="row">
+          <button class="increment">+</button>
+          <h4>3 Ounces</h4>
+          <button class="decrement">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <label>Water</label>
+        <div class="row">
+          <button class="increment">+</button>
+          <h4>3 Ounces</h4>
+          <button class="decrement">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <label>Sugar</label>
+        <div class="row">
+          <button class="increment">+</button>
+          <h4>6 Tablespoons</h4>
+          <button class="decrement">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <label>Ice Cubes</label>
+        <div class="row">
+          <button class="increment">+</button>
+          <h4>5 Cubes</h4>
+          <button class="decrement">-</button>
+        </div>
+      </div>
       <button>Add to order</button>
     </div>
-    <div>
+    <div class="sidebar">
       <h1>Your Order</h1>
       <div>
         <p>Orders go here</p>
