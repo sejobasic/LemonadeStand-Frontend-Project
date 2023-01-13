@@ -25,6 +25,13 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   background-color: var(--button);
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8b89;
 }
 
 label {
@@ -53,16 +60,35 @@ label {
 }
 
 .title {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1626254295724-929c014bf882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGxlbW9uYWRlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(28, 28, 28, 0.3);
+  text-align: center;
 }
 
 .title img {
-  margin-top: 5em;
-  width: 200px;
-  padding: 2em;
+  width: 150px;
+  padding: 1em;
   border-radius: 20%;
-  background-color: var(--form-box);
+  background-color: var(--button);
+  margin-bottom: 2em;
+}
+
+.title h1 {
+  color: var(--button);
+}
+
+.form-box h1 {
+  margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 .input-style {
